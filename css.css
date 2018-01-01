@@ -1,0 +1,120 @@
+/* This CSS style sheet is for the tutorial pages
+for WEBDEV_edu website.
+
+*/
+
+body {
+		background-color: white;
+		color: green;
+		font-family: Monospace;
+}
+
+#wrapper {
+		color: green;
+		width: 98%;
+}
+
+header {
+		border: 3px solid green;
+		margin-bottom: 10px;
+
+	}
+
+.logo {
+		text-align: center;
+		font-size: 8em;
+		left: 15%;
+
+	}
+
+
+/*
+		#img-main {
+			height: 30%;
+			width: 100%;
+			border: 2px solid white;
+		}
+
+*/
+
+
+
+.main-content {
+		margin-bottom: 10px;
+		border: 3px solid green;
+		width: 100%;
+		position: relative;
+		font-size: 3em;
+	}
+
+.main-center-content {
+		border: 1px solid black;
+		padding: 10%;
+	}
+
+.main-center-content p {
+
+}
+
+
+ul {
+    	list-style-type: none;
+}
+
+
+video {
+		border: 3px solid black;
+		background-color: black;
+			
+    }
+
+
+nav {
+		margin-bottom: 7px;
+		border: 3px solid green;
+		width: 100%;
+		font-size: 8em;
+		background-color: white;
+
+	}
+
+nav ul {
+		text-align: left;
+		margin: 80px 30px 100px 0px;
+	}
+
+nav li {
+		float: center;
+		list-style: none;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding: 10px 20px;
+		border: 4px groove rgba(0, 82, 6, 0.16);
+		background-color: white;
+		border-radius: 10px;
+	}
+
+nav li a {
+		text-decoration: none;
+		text-shadow: -4px 4px 3px #999999;
+		color: green;
+
+	}
+
+
+
+.powered-by-albert {
+		padding-top: 20px;
+	}
+
+
+footer {
+		border: 3px solid green;
+		float: left;
+		text-align: center;
+		position: relative;
+		height: 14%;
+		width: 100%;
+		top: 10px;
+		bottom: 10px;
+	}
